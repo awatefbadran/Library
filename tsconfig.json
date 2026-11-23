@@ -1,0 +1,17 @@
+
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "src/domains/auth/domain", "src/domains/auth/infrastructure/security"],
+  "exclude": ["node_modules", "dist"]
+}
+
